@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<title>Image Map Example</title>
+<meta charset="utf-8">
+</head>
+<body>
+<h1>Image Map</h1>
+  <map id="fishing" name="fishing">
+      <area href="http://nature.org"  shape="rect" coords="0,51,416,170" alt="The Nature Conservancy" title="The Nature Conservancy">
+      <area href="http://www.fishingdoorcounty.com"  shape="rect" coords="24,188,339,283" alt="Door County Fishing Boat" title="Door County Fishing Boat">
+   </map>
+   <img src="fishingboat.jpg" usemap="#fishing" alt="Door County" height="350" width="416">
+
+
+
+</body>
+</html>

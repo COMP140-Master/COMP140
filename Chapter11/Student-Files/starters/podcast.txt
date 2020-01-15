@@ -1,0 +1,13 @@
+Welcome to an example podcast.  
+
+I'm Terry Morris, the author of your textbook.
+
+If this were an actual podcast it would focus on a topic and perhaps include an interview with an interesting guest.
+
+It's very easy to create a podcast.
+
+If you use a Mac computer, try ou the pre-installed Garageband application.
+
+If you are using Windows, you can download Audacity. It's a free audio recorder and editor.
+
+Have fun creating your own podcast!

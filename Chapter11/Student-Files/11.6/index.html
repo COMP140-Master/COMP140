@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lighthouse Island Bistro</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { box-sizing: border-box; }
+body {font-family: Verdana, Arial, sans-serif;
+      background-color: #00005D;
+}
+#wrapper { background-color: #b3c7e6; 
+           color: #000066;
+           width: 90%;
+		   margin: auto;
+           min-width: 450px;
+		   max-width: 1020px;
+} 
+header { background-color: #869dc7;
+         background-image: url(lighthouselogo.jpg);
+		 background-repeat: no-repeat;
+        color: #00005D; 
+		padding: 10px;
+}
+header h1 { padding-left: 200px;
+ }
+
+header span { font-style: italic;
+			  font-weight: bold;
+			  color: #00005D;
+			  padding-right: 15px;
+			  text-align: right;
+		      display: block; 
+} 
+nav { float: left;
+	  width: 150px;
+	  letter-spacing:0.1em;
+	  font-weight: bold;
+} 
+
+nav ul { list-style-type: none; 
+         margin: 0;
+         padding: 0;
+}
+nav li { border-bottom: 1px solid #ffffff;
+}
+nav a { text-decoration: none; 
+        display: block;
+		padding: 15px;
+}
+nav a:link { color: #ffffff; }
+nav a:visited { color: #eaeaea; }
+nav a:hover {  color: #869dc7;
+               background-color: #eaeaea;
+}
+main { background-color: #ffffff;
+           color: #000000;
+		   padding: 10px 20px;
+	       overflow: auto; 
+} 
+
+h2 { color: #869dc7; 
+     font-family: arial, sans-serif;
+	 margin: 5px;
+}
+
+figure {   float: right;
+		   margin: 10px;
+           padding: 5px;
+		   background-color: #FFF;
+		   border: 1px solid #CCC;
+		   box-shadow: 5px 5px 5px #828282;
+		   transform: rotate(3deg);
+}
+figcaption { text-align: center;
+		   font-size: .8em;
+		   font-style: italic;
+}
+footer {font-size:70%;
+         text-align: center;
+         padding: 10px;
+         background-color: #869dc7;
+		 clear: both;
+}
+#offer a { color: red; text-decoration: none; }
+#offer { background-color: #eaeaea;
+         width: 10em;
+         margin: auto;
+         text-align: center;
+		 transform: scale(2);
+ }
+
+header, main, nav, footer, figure, figcaption { display: block; }
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; background-color: #869dc7;}
+	#wrapper { width: auto; margin: 0;}                                                              
+	main { margin-left: 0; }
+	nav { float: none; 
+          width: auto; }
+	nav li { display: inline-block; 
+               padding: 0.5em; }
+	nav ul { text-align: center; }
+	nav a { border-style: none; }
+	h1, h2 { font-size: 120%; }
+	p { font-size: 90%; }
+} 
+@media only screen and (max-width: 768px) { 
+    #wrapper { min-width: 0; }
+    header { background-image: url(lighthousemini.jpg); }
+	header h1 { padding-left: 0; }
+	h1, h2 { font-size: 100%; }
+	span { font-size: 80%; } 
+  	figure { display: none;}
+ 	nav, nav ul, nav li { padding: 0; }
+ 	nav li { display: block; }
+    nav a { display: block; 
+      	padding: 0.5em 0;
+        border-bottom: 2px ridge #00005D; }
+    }
+</style>
+<!--[if lt IE 9]>
+   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
+<![endif]-->
+</head>
+<body>
+<div id="wrapper">  
+  <header>
+      <h1>Lighthouse Island Bistro</h1>
+      <span>the best coffee on the coast</span>
+  </header>  
+  <nav>
+    <ul>
+	 <li><a href="index.html">Home</a></li>
+     <li><a href="menu.html">Menu</a></li>
+     <li><a href="directions.html">Directions</a></li>
+     <li><a href="contact.html">Contact</a></li>
+	</ul> 
+   </nav>
+<main> 
+    <figure>
+     <img src="lighthouseisland.jpg" width="250" height="355" alt="Lighthouse Island">
+	 <figcaption>Island Lighthouse, Built in 1870</figcaption>
+	 </figure>
+   	<h2>Locally Roasted Free-Trade Coffee</h2>
+    <p>Indulge in the aroma of freshly ground roast coffee. Specialty drinks are available hot or cold.</p>
+    <h2>Specialty Pastries</h2>
+    <p>Enjoy a selection of our fresh-baked, organic pastries, including 
+  fresh-fruit muffins, scones, croissants, and cinnamon rolls.</p>
+  	<h2>Lunchtime is Anytime</h2>
+    <p>Savor delicious wraps and sandwiches on hearty, whole-grain breads with locally-grown salad, fruit, and vegetables. </p>
+    <h2>Panoramic View</h2>
+	<p>Take in some scenery! The top of our lighthouse offers a panoramic view of the countryside. Challenge your friends to climb our 100-stair tower.</p>
+   <div id="offer">
+   <a href="#">Special Offer</a>
+</div>   
+  </main> 
+   <footer>Copyright &copy; 2016
+   </footer>
+  </div> 
+</body>
+</html>
+
+

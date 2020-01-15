@@ -1,0 +1,30 @@
+body     { background-color: #e6e6fa; 
+           color: #191970;
+           font-family: Arial, Verdana, sans-serif; }
+h1       { background-color: #191970; 
+           color: #e6e6fa; 
+	       line-height: 200%;
+	       font-family: Georgia, "Times New Roman", serif;
+	       text-indent: 1em;
+	       text-shadow: 3px 3px 5px #CCCCCC; }
+h2       { background-color: #aeaed4; 
+           color: #191970; 
+	       font-family: Georgia, "Times New Roman", serif;
+	       text-align: center;  }
+nav      { font-weight: bold;
+           word-spacing: 1em;
+           font-size: 1.25em; }
+nav a    { text-decoration: none; }
+p        { font-size: .90em;
+	       text-indent: 3em; }
+ul       { font-weight: bold; }
+footer   { color: #333333;
+		   font-size: .75em;
+		   font-style: italic; }
+.feature { color: #C70000; }
+.company { font-weight: bold;
+           font-family: Georgia, "Times New Roman", serif;
+           font-size: 1.25em; }
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           width: 80%; }

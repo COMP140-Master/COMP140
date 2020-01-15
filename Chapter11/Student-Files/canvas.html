@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Canvas Element</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+function drawMe() {
+  var canvas = document.getElementById("myCanvas");
+  if (canvas.getContext) {
+    var ctx = canvas.getContext("2d");
+	ctx.fillStyle = "rgb(255, 0, 0)";
+	ctx.font = "bold 3em Georgia"; 
+	ctx.fillText("My Canvas", 70, 100);
+	ctx.fillStyle = "rgba(0, 0, 200, 0.50)";
+    ctx.fillRect(57, 54, 100, 65);
+	}
+}
+</script>
+<style>
+canvas { border: 2px solid red; }
+</style>
+</head>
+<body onload="drawMe()">
+<h1>The Canvas Element</h1>
+<canvas id="myCanvas" width="400" height="175">
+My Canvas
+</canvas>
+</body>
+</html>

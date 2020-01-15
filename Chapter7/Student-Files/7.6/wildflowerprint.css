@@ -1,0 +1,45 @@
+header, nav, main, footer, aside { display: block; }
+* { box-sizing: border-box;}
+body { margin:0;
+       background-color: #ffffff; }
+#container { background-color: #eeeeee;
+             color: #006600;
+             font-family: Verdana, Arial, sans-serif; }
+header { background-color: #FFFFFF;
+         color: #cc66cc;
+         padding: 0 20px;
+         border-bottom: 2px solid #000000; }	
+header a { display: none; }		 
+aside { float: right;
+        width: 40%; }
+main { margin: 0 40% 0 0;
+        padding: 1px 10px 20px 10px;
+		font-size: 12pt;
+        background-color: #ffffff;
+        color: #000000; }
+footer { font-size: .70em;
+         text-align: center;
+         color: #006600;
+         background-color: #ffffff;
+         padding-top: 10px;
+         clear: both; }		 
+h1 { margin-top: 0;
+     font-size: 24pt;
+     text-align: left; }	 
+nav { display: none; }
+main p { margin: 20px; }
+main h2, main h3 { color: #cc66cc;
+                background-color: #ffffff; }
+.floatright { margin: 10px;
+              float: right; }
+aside h3 { padding-bottom: 2px;
+           border-bottom: 1px solid #000000;
+           margin: 10px;
+           font-size: 0.90em;
+		   color: #cc66cc; }
+aside a { text-decoration: none; }
+aside a:after { content: " (" attr(href) ") ";
+              font-size: 8pt;
+              color: #000000; }
+.news { font-size: 10pt;
+        margin: 10px; }	

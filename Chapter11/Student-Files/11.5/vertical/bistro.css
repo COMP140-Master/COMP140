@@ -1,0 +1,87 @@
+* { box-sizing: border-box;}
+body { font-family:Verdana, Arial, sans-serif;
+       background-color: #EAEAEA;
+	   margin: 0;
+}
+#wrapper {  min-width: 600px;
+           max-width: 1280px;
+           color: #000066;
+		    background-color: #00005D; 
+           width: 80%;
+		   margin: auto;
+} 
+header { font-family: Georgia, "Times New Roman", serif;
+        color: #00005D; 
+		background-color: #869dc7; 
+		background-image: url(lighthouselogo.jpg);
+		background-repeat: no-repeat;
+		margin-top: 0;
+		padding-bottom: 1em;
+		height: auto;
+		margin-left: 160px;
+}
+header h1 { padding-left: 120px;
+          padding-top: 40px;
+		  margin: 0; 	  
+ }
+header span { font-style: italic;
+			  font-weight: bold;
+			  font-size: 95%;
+			  color: #FFFFFF;
+              padding-left: 15em;
+			  margin-top: -0.5em;
+}
+nav {   letter-spacing: 0.1em;
+	   font-weight: bold;	  
+	   position: relative;
+	   float: left;
+	   width: 160px;
+
+} 
+nav ul { list-style-type: none; 
+        margin: 0;
+}
+nav li { padding: 0.5em 0;
+}
+nav a { text-decoration: none; 
+       display: block;
+}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover {  color: #D3DBEB; }
+nav ul ul { position: absolute;
+         left: 130px;
+		 top: 80px;
+         background-color: #5564A0;
+    	 padding: 0;
+         display: none; 
+		 text-align: left;
+}
+nav ul ul li { border: 1px solid  #00005D;
+ 		 display: block;
+         width: 8em;
+         padding-left: 1em;
+         margin-left: 0; 
+}
+nav li:hover ul { display: block; }
+main { background-color: #ffffff;
+           color: #000000;
+		   padding: 10px 20px;
+	       overflow: auto; 
+		   min-height: 400px;
+		   margin-left: 160px;
+} 
+
+h2 { color: #869dc7; 
+     font-family: arial, sans-serif;
+	 margin: 5px;
+}
+
+
+footer { font-size:70%;
+	    background-color: #FFFFFF;
+         text-align: center;
+         padding: 10px;
+		 margin-left: 160px;
+}
+header, main, nav, footer, figure, figcaption { display: block; }

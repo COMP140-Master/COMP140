@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Casita Sedona</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* { box-sizing: border-box; } 
+body { font-family: Verdana, Arial, sans-serif;
+      background-color: #330000;
+}
+#wrapper {  background-color: #F4E8BC; 
+	        width: 90%;
+			margin: auto;
+            color: #330000;
+} 
+h1, h2 { color: #003300; }
+header { background-image: url(header.jpg);
+         background-repeat: no-repeat;   
+		 background-size: cover;
+}
+h1 { text-align: center;
+     font-size: 300%;
+     padding: 5% 0;
+     text-shadow: 3px 3px 3px #F4E8BC;	
+}
+
+nav { float: left;
+      width: 20%;
+	  font-size: 120%;
+}	  
+nav ul { list-style-type: none; }
+nav a { text-decoration: none;}
+nav a:link { color: #330000; }
+nav a:visited { color: #003300; }
+nav a:hover { color: #996600; }
+aside { float: right; 
+        width: 25%;
+		padding: 0 2.5%;
+}
+main { width: 50%;
+        padding-right: 2%;
+        margin-left: 20%;
+}
+img { max-width: 100%;
+      height: auto; }
+footer { text-align: center;
+         font-size: 80%;
+		 font-style: italic;
+		 color: #003300;
+		 padding: 2.5%;
+	     clear: both; 
+}
+@media only screen and (max-width: 1024px) {
+          body { margin: 0; padding: 0; } 
+          #wrapper { width: auto; }
+          h1 { margin: 0; }
+		  nav { float: none;
+                width: auto;
+                margin-top: 0;	}
+ 	      nav ul { padding-left: 0;
+                   text-align: center; }
+          nav li { display: inline;
+                   margin: 0 2%; }
+          main { width: 60%;
+                   margin-left: 5%; }
+          aside { width: 30%;  }
+
+}
+@media only screen and (max-width: 768px) {
+		    h1 { font-size: 200%; }
+			main { margin: 0 5%;      
+                    width: auto;	}
+			nav ul, nav li { padding: 0; margin: 1% 0 0 0; }
+			nav a { display: inline-block;
+                    width: 5em;
+			        font-size: 120%;
+					text-align: center;
+					box-shadow: 2px 2px 2px #330000;
+					background-color: #FFFFCC; 
+					margin: 1%;
+					padding:  1% 1.5%; 			}
+			aside { display: none; }		
+}
+header, main, nav, footer, figure, figcaption { display: block; }
+</style>
+<!--[if lt IE 9]>
+   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
+<![endif]--> 
+</head>
+<body>
+<div id="wrapper">
+  <header role="banner">
+    <h1>Casita Sedona</h1>
+  </header>  
+  <nav role="navigation">
+    <ul>
+	 <li><a href="index.html">Home</a></li>
+     <li><a href="rooms.html">Rooms</a></li>
+     <li><a href="specials.html">Specials</a></li>
+     <li><a href="contact.html">Contact</a></li>
+	</ul> 
+   </nav>
+   <aside role="complementary">
+     <img src="pools.jpg" alt="Pools of water in the rock">
+	 <h2>Guided Hikes</h2>
+	 <p>Casita Sedona offers a free guided hike each week for guests. Explore the Seven Sacred Pools along the Soldiers Pass Trail.</p>
+   </aside>
+<main role="main">   
+	<h2>Located in the Heart of Sedona</h2>
+    <p>At Casita Sedona Bed &amp; Breakfast you&#39;ll be close to art galleries, shops, restaurants, hiking trails, and tours. Ride the free trolley to shops and galleries.</p>
+    <h2>Luxurious Rooms </h2>
+    <p>Stay in a well-appointed room at Casita Sedona with your own fireplace, king-size bed, balcony overlooking the red rocks, private bath with shower, and whirlpool tub for two. Choose from the Canyon, Javelina, Manzanita, Thunder Mountain, and Schnebly rooms &mdash; each is unique and sure to be a high point of your vacation experience.</p>
+  	<h2>Hearty Breakfast</h2>
+    <p>Each day begins with a hearty breakfast that includes your choice of belgian waffles, pumpkin french toast, or quiche. Fresh fruit, yogurt, juice, and coffee are always available.</p>
+	<h2>About Your Hosts</h2>
+	<p>Your hosts, Melanie and Greg Tortuga, are long-time Sedona residents who love to share their knowledge of the Sedona area with their guests. Melanie is an author and artist. Greg has years of experience leading jeep tours and guiding hikes in and around Sedona.</p>
+   </main> 
+   <footer role="contentinfo">Copyright &copy; 2016
+   </footer>
+</div>
+</body>
+</html>
